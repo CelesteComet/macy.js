@@ -6,6 +6,8 @@ import imagesLoaded from './helpers/imagesLoaded';
 import { wait } from './helpers/wait';
 
 
+// When Macy is initialized, resizer is called whenever window is resized.
+
 const defaults = {
   columns: 4,
   margin: 2,
